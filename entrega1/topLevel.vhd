@@ -7,6 +7,8 @@ entity topLevel is
         fpga_clk_50        : in  std_logic;             -- clock.clk
 		  
         -- I/Os
+		  fpga_key_sw			: in std_logic_vector(3 downto 0);
+		  fpga_en_but			: in std_logic;
         fpga_led_pio       : out std_logic_vector(5 downto 0)
 
 	);
@@ -14,29 +16,19 @@ end entity topLevel;
 
 architecture rtl of topLevel is
 
--- signal
-signal blink : std_logic := '0';
+component LED_peripheral
+    port (
+		  clk       : in  std_logic;             -- clock.clk
+        freq      : in  std_logic_vector(3 downto 0);
+		  en        : in  std_logic;
+
+        leds       : out std_logic_vector(5 downto 0)
+
+	);
+end component;
 
 begin
 
-  process(fpga_clk_50) 
-      variable counter : integer range 0 to 25000000 := 0;
-      begin
-        if (rising_edge(fpga_clk_50)) then
-                  if (counter < 10000000) then
-                      counter := counter + 1;
-                  else
-                      blink <= not blink;
-                      counter := 0;
-                  end if;
-        end if;
-  end process;
-
-  fpga_led_pio(0) <= blink;
-  fpga_led_pio(1) <= blink;
-  fpga_led_pio(2) <= blink;
-  fpga_led_pio(3) <= blink;
-  fpga_led_pio(4) <= blink;
-  fpga_led_pio(5) <= blink;
+  clock: LED_peripheral port map (fpga_clk_50, fpga_key_sw, fpga_en_but, fpga_led_pio);
   
 end architecture;

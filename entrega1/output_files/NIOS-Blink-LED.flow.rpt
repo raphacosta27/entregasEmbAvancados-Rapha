@@ -1,6 +1,6 @@
 Flow report for NIOS-Blink-LED
-Thu Aug  9 04:14:23 2018
-Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Mon Aug 20 20:10:18 2018
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
 ---------------------
@@ -21,35 +21,36 @@ Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2018  Intel Corporation. All rights reserved.
-Your use of Intel Corporation's design tools, logic functions 
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Intel Program License 
-Subscription Agreement, the Intel Quartus Prime License Agreement,
-the Intel FPGA IP License Agreement, or other applicable license
-agreement, including, without limitation, that your use is for
-the sole purpose of programming logic devices manufactured by
-Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details.
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
 
 
 
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Thu Aug  9 04:14:23 2018       ;
-; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
+; Flow Status                     ; Successful - Mon Aug 20 20:10:18 2018       ;
+; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                   ; NIOS-Blink-LED                              ;
 ; Top-level Entity Name           ; topLevel                                    ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEBA6U23I7                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 18 / 41,910 ( < 1 % )                       ;
-; Total registers                 ; 27                                          ;
-; Total pins                      ; 7 / 314 ( 2 % )                             ;
+; Logic utilization (in ALMs)     ; 673 / 41,910 ( 2 % )                        ;
+; Total registers                 ; 37                                          ;
+; Total pins                      ; 12 / 314 ( 4 % )                            ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0 / 5,662,720 ( 0 % )                       ;
 ; Total DSP Blocks                ; 0 / 112 ( 0 % )                             ;
@@ -67,56 +68,56 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/09/2018 04:13:26 ;
+; Start date & time ; 08/20/2018 20:06:50 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; NIOS-Blink-LED      ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                             ;
-+-------------------------------------+----------------------------------------+----------------+-------------+----------------+
-; Assignment Name                     ; Value                                  ; Default Value  ; Entity Name ; Section Id     ;
-+-------------------------------------+----------------------------------------+----------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 52231410039.153381320606608            ; --             ; --          ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --             ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>         ; --          ; --             ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --             ; --          ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP              ; 100                                    ; --             ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; -40                                    ; --             ; --          ; --             ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --             ; topLevel    ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --             ; topLevel    ; Top            ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --             ; topLevel    ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --             ; --          ; --             ;
-; TOP_LEVEL_ENTITY                    ; topLevel                               ; NIOS-Blink-LED ; --          ; --             ;
-+-------------------------------------+----------------------------------------+----------------+-------------+----------------+
++-----------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                ;
++-------------------------------------+---------------------------+----------------+-------------+----------------+
+; Assignment Name                     ; Value                     ; Default Value  ; Entity Name ; Section Id     ;
++-------------------------------------+---------------------------+----------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 0.153480641005202         ; --             ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl               ; --             ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog) ; <None>         ; --          ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                      ; --             ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP              ; 100                       ; --             ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; -40                       ; --             ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                  ; --             ; topLevel    ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING     ; --             ; topLevel    ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                    ; --             ; topLevel    ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files              ; --             ; --          ; --             ;
+; TOP_LEVEL_ENTITY                    ; topLevel                  ; NIOS-Blink-LED ; --          ; --             ;
++-------------------------------------+---------------------------+----------------+-------------+----------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 1051 MB             ; 00:00:26                           ;
-; Fitter               ; 00:00:31     ; 1.0                     ; 2556 MB             ; 00:01:03                           ;
-; Assembler            ; 00:00:06     ; 1.0                     ; 975 MB              ; 00:00:06                           ;
-; Timing Analyzer      ; 00:00:05     ; 1.1                     ; 1274 MB             ; 00:00:05                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 1138 MB             ; 00:00:01                           ;
-; Total                ; 00:00:55     ; --                      ; --                  ; 00:01:41                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:50     ; 1.0                     ; 1343 MB             ; 00:01:16                           ;
+; Fitter                    ; 00:01:59     ; 1.0                     ; 2277 MB             ; 00:02:42                           ;
+; Assembler                 ; 00:00:13     ; 1.0                     ; 1211 MB             ; 00:00:13                           ;
+; TimeQuest Timing Analyzer ; 00:00:17     ; 1.0                     ; 1479 MB             ; 00:00:17                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 1398 MB             ; 00:00:03                           ;
+; Total                     ; 00:03:22     ; --                      ; --                  ; 00:04:31                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                        ;
-+----------------------+------------------+----------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
-+----------------------+------------------+----------------+------------+----------------+
-; Analysis & Synthesis ; ubuntu           ; Ubuntu 16.04.5 ; 16         ; x86_64         ;
-; Fitter               ; ubuntu           ; Ubuntu 16.04.5 ; 16         ; x86_64         ;
-; Assembler            ; ubuntu           ; Ubuntu 16.04.5 ; 16         ; x86_64         ;
-; Timing Analyzer      ; ubuntu           ; Ubuntu 16.04.5 ; 16         ; x86_64         ;
-; EDA Netlist Writer   ; ubuntu           ; Ubuntu 16.04.5 ; 16         ; x86_64         ;
-+----------------------+------------------+----------------+------------+----------------+
++----------------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                                    ;
++---------------------------+-------------------------+----------------+------------+----------------+
+; Module Name               ; Machine Hostname        ; OS Name        ; OS Version ; Processor type ;
++---------------------------+-------------------------+----------------+------------+----------------+
+; Analysis & Synthesis      ; comp404-Precision-T5600 ; Ubuntu 16.04.4 ; 16         ; x86_64         ;
+; Fitter                    ; comp404-Precision-T5600 ; Ubuntu 16.04.4 ; 16         ; x86_64         ;
+; Assembler                 ; comp404-Precision-T5600 ; Ubuntu 16.04.4 ; 16         ; x86_64         ;
+; TimeQuest Timing Analyzer ; comp404-Precision-T5600 ; Ubuntu 16.04.4 ; 16         ; x86_64         ;
+; EDA Netlist Writer        ; comp404-Precision-T5600 ; Ubuntu 16.04.4 ; 16         ; x86_64         ;
++---------------------------+-------------------------+----------------+------------+----------------+
 
 
 ------------

@@ -1,0 +1,20 @@
+Fitter Status : Successful - Tue Aug 21 09:50:28 2018
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : entrega2-NIOSBlinkLed
+Top-level Entity Name : topLevel
+Family : Cyclone V
+Device : 5CSEBA6U23I7
+Timing Models : Final
+Logic utilization (in ALMs) : 837 / 41,910 ( 2 % )
+Total registers : 1002
+Total pins : 12 / 314 ( 4 % )
+Total virtual pins : 0
+Total block memory bits : 2,108,416 / 5,662,720 ( 37 % )
+Total RAM Blocks : 261 / 553 ( 47 % )
+Total DSP Blocks : 0 / 112 ( 0 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0 / 6 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

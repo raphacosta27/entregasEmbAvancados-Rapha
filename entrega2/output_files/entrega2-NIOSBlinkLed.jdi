@@ -1,6 +1,6 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="b5db8f60be7bc134b058"/>
+    <hash md5_digest_80b="930f30666eb0faf3b156"/>
   </project>
   <file_info>
     <file device="5CSEBA6U23I7" path="entrega2-NIOSBlinkLed.sof" usercode="0xFFFFFFFF"/>
@@ -91,15 +91,15 @@
         <assignment name="send_width" type="dec" value="3"/>
         <assignment name="receive_width" type="dec" value="24"/>
         <assignment name="num_clocks" type="dec" value="0"/>
-        <assignment name="settings" type="string" value="{fabric sld dir agent mfr_code 110 type_code 128 version 1 instance -1 ir_width 1 prefer_host { } psig f63706bb}"/>
-        <assignment name=" constraint(settings)" type="string" value="1 to 112"/>
+        <assignment name="settings" type="string" value="{fabric sld dir agent mfr_code 110 type_code 128 version 1 instance -1 ir_width 1 bridge_agent 0 prefer_host { } psig 9b67919e}"/>
+        <assignment name=" constraint(settings)" type="string" value="1 to 127"/>
         <assignment name=" constraint(send)" type="string" value="2 downto 0"/>
         <assignment name=" constraint(receive)" type="string" value="23 downto 0"/>
       </parameters>
     </sld_info>
     <sld_info hpath="niosHello:u0" name="u0">
       <assignment_values>
-        <assignment_value text="QSYS_NAME niosHello HAS_SOPCINFO 1 GENERATION_ID 1534855537"/>
+        <assignment_value text="QSYS_NAME niosHello HAS_SOPCINFO 1 GENERATION_ID 1535629279"/>
       </assignment_values>
       <parameters/>
     </sld_info>

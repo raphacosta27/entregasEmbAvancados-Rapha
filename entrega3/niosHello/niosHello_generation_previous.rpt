@@ -1,0 +1,206 @@
+Info: Starting: Create simulation model
+Info: qsys-generate /home/raphacosta/Desktop/entrega3/niosHello.qsys --simulation=VHDL --allow-mixed-language-simulation --output-directory=/home/raphacosta/Desktop/entrega3/niosHello/simulation --family="Cyclone V" --part=5CSEBA6U23I7
+Progress: Loading entrega3/niosHello.qsys
+Progress: Reading input file
+Progress: Adding HC_SR04_0 [HC_SR04 1.0]
+Progress: Parameterizing module HC_SR04_0
+Progress: Adding clk_0 [clock_source 16.0]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 16.0]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 16.0]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding peripheral_LED_0 [peripheral_LED 1.0]
+Progress: Parameterizing module peripheral_LED_0
+Progress: Adding pio_ButSw [altera_avalon_pio 16.0]
+Progress: Parameterizing module pio_ButSw
+Progress: Adding ram [altera_avalon_onchip_memory2 16.0]
+Progress: Parameterizing module ram
+Progress: Adding rom [altera_avalon_onchip_memory2 16.0]
+Progress: Parameterizing module rom
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: niosHello.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: niosHello.pio_ButSw: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: niosHello: Generating niosHello "niosHello" for SIM_VHDL
+Info: HC_SR04_0: "niosHello" instantiated HC_SR04 "HC_SR04_0"
+Info: jtag_uart_0: Starting RTL generation for module 'niosHello_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec /home/raphacosta/altera_lite/16.0/quartus/linux64/perl/bin/perl -I /home/raphacosta/altera_lite/16.0/quartus/linux64/perl/lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/europa -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=niosHello_jtag_uart_0 --dir=/tmp/alt7799_2754828095925252932.dir/0055_jtag_uart_0_gen/ --quartus_dir=/home/raphacosta/altera_lite/16.0/quartus --verilog --config=/tmp/alt7799_2754828095925252932.dir/0055_jtag_uart_0_gen//niosHello_jtag_uart_0_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt7799_2754828095925252932.dir/0055_jtag_uart_0_gen/  ]
+Info: jtag_uart_0: Done RTL generation for module 'niosHello_jtag_uart_0'
+Info: jtag_uart_0: "niosHello" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: nios2_gen2_0: "niosHello" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: peripheral_LED_0: "niosHello" instantiated peripheral_LED "peripheral_LED_0"
+Info: pio_ButSw: Starting RTL generation for module 'niosHello_pio_ButSw'
+Info: pio_ButSw:   Generation command is [exec /home/raphacosta/altera_lite/16.0/quartus/linux64/perl/bin/perl -I /home/raphacosta/altera_lite/16.0/quartus/linux64/perl/lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/europa -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=niosHello_pio_ButSw --dir=/tmp/alt7799_2754828095925252932.dir/0057_pio_ButSw_gen/ --quartus_dir=/home/raphacosta/altera_lite/16.0/quartus --verilog --config=/tmp/alt7799_2754828095925252932.dir/0057_pio_ButSw_gen//niosHello_pio_ButSw_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt7799_2754828095925252932.dir/0057_pio_ButSw_gen/  ]
+Info: pio_ButSw: Done RTL generation for module 'niosHello_pio_ButSw'
+Info: pio_ButSw: "niosHello" instantiated altera_avalon_pio "pio_ButSw"
+Info: ram: Starting RTL generation for module 'niosHello_ram'
+Info: ram:   Generation command is [exec /home/raphacosta/altera_lite/16.0/quartus/linux64/perl/bin/perl -I /home/raphacosta/altera_lite/16.0/quartus/linux64/perl/lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/europa -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=niosHello_ram --dir=/tmp/alt7799_2754828095925252932.dir/0058_ram_gen/ --quartus_dir=/home/raphacosta/altera_lite/16.0/quartus --verilog --config=/tmp/alt7799_2754828095925252932.dir/0058_ram_gen//niosHello_ram_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt7799_2754828095925252932.dir/0058_ram_gen/  ]
+Info: ram: Done RTL generation for module 'niosHello_ram'
+Info: ram: "niosHello" instantiated altera_avalon_onchip_memory2 "ram"
+Info: rom: Starting RTL generation for module 'niosHello_rom'
+Info: rom:   Generation command is [exec /home/raphacosta/altera_lite/16.0/quartus/linux64/perl/bin/perl -I /home/raphacosta/altera_lite/16.0/quartus/linux64/perl/lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/europa -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=niosHello_rom --dir=/tmp/alt7799_2754828095925252932.dir/0059_rom_gen/ --quartus_dir=/home/raphacosta/altera_lite/16.0/quartus --verilog --config=/tmp/alt7799_2754828095925252932.dir/0059_rom_gen//niosHello_rom_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt7799_2754828095925252932.dir/0059_rom_gen/  ]
+Info: rom: Done RTL generation for module 'niosHello_rom'
+Info: rom: "niosHello" instantiated altera_avalon_onchip_memory2 "rom"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "niosHello" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "niosHello" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "niosHello" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'niosHello_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec /home/raphacosta/altera_lite/16.0/quartus/linux64//eperlcmd -I /home/raphacosta/altera_lite/16.0/quartus/linux64//perl/lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/europa -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=niosHello_nios2_gen2_0_cpu --dir=/tmp/alt7799_2754828095925252932.dir/0062_cpu_gen/ --quartus_bindir=/home/raphacosta/altera_lite/16.0/quartus/linux64/ --verilog --config=/tmp/alt7799_2754828095925252932.dir/0062_cpu_gen//niosHello_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt7799_2754828095925252932.dir/0062_cpu_gen/  ]
+Info: cpu: # 2018.09.25 05:00:30 (*) Starting Nios II generation
+Info: cpu: # 2018.09.25 05:00:30 (*)   Checking for plaintext license.
+Info: cpu: # 2018.09.25 05:00:30 (*)   Plaintext license not found.
+Info: cpu: # 2018.09.25 05:00:30 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2018.09.25 05:00:30 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2018.09.25 05:00:31 (*)   Creating all objects for CPU
+Info: cpu: # 2018.09.25 05:00:31 (*)   Creating '/tmp/alt7799_2754828095925252932.dir/0062_cpu_gen//niosHello_nios2_gen2_0_cpu_nios2_waves.do'
+Info: cpu: # 2018.09.25 05:00:31 (*)   Generating RTL from CPU objects
+Info: cpu: # 2018.09.25 05:00:31 (*)   Creating plain-text RTL
+Info: cpu: # 2018.09.25 05:00:32 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'niosHello_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_005: "mm_interconnect_0" instantiated altera_merlin_router "router_005"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_003: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_003"
+Info: Reusing file /home/raphacosta/Desktop/entrega3/niosHello/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file /home/raphacosta/Desktop/entrega3/niosHello/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file /home/raphacosta/Desktop/entrega3/niosHello/simulation/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: niosHello: Done "niosHello" with 30 modules, 51 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=/home/raphacosta/Desktop/entrega3/niosHello/niosHello.spd --output-directory=/home/raphacosta/Desktop/entrega3/niosHello/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=/home/raphacosta/Desktop/entrega3/niosHello/niosHello.spd --output-directory=/home/raphacosta/Desktop/entrega3/niosHello/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in /home/raphacosta/Desktop/entrega3/niosHello/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in /home/raphacosta/Desktop/entrega3/niosHello/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in /home/raphacosta/Desktop/entrega3/niosHello/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	29 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in /home/raphacosta/Desktop/entrega3/niosHello/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/raphacosta/Desktop/entrega3/niosHello/simulation/.
+Info: Finished: Create Modelsim Project.
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/raphacosta/Desktop/entrega3/niosHello.qsys --synthesis=VHDL --output-directory=/home/raphacosta/Desktop/entrega3/niosHello/synthesis --family="Cyclone V" --part=5CSEBA6U23I7
+Progress: Loading entrega3/niosHello.qsys
+Progress: Reading input file
+Progress: Adding HC_SR04_0 [HC_SR04 1.0]
+Progress: Parameterizing module HC_SR04_0
+Progress: Adding clk_0 [clock_source 16.0]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 16.0]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 16.0]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding peripheral_LED_0 [peripheral_LED 1.0]
+Progress: Parameterizing module peripheral_LED_0
+Progress: Adding pio_ButSw [altera_avalon_pio 16.0]
+Progress: Parameterizing module pio_ButSw
+Progress: Adding ram [altera_avalon_onchip_memory2 16.0]
+Progress: Parameterizing module ram
+Progress: Adding rom [altera_avalon_onchip_memory2 16.0]
+Progress: Parameterizing module rom
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: niosHello.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: niosHello.pio_ButSw: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: niosHello: Generating niosHello "niosHello" for QUARTUS_SYNTH
+Info: HC_SR04_0: "niosHello" instantiated HC_SR04 "HC_SR04_0"
+Info: jtag_uart_0: Starting RTL generation for module 'niosHello_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec /home/raphacosta/altera_lite/16.0/quartus/linux64/perl/bin/perl -I /home/raphacosta/altera_lite/16.0/quartus/linux64/perl/lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/europa -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=niosHello_jtag_uart_0 --dir=/tmp/alt7799_2754828095925252932.dir/0082_jtag_uart_0_gen/ --quartus_dir=/home/raphacosta/altera_lite/16.0/quartus --verilog --config=/tmp/alt7799_2754828095925252932.dir/0082_jtag_uart_0_gen//niosHello_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'niosHello_jtag_uart_0'
+Info: jtag_uart_0: "niosHello" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: nios2_gen2_0: "niosHello" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: peripheral_LED_0: "niosHello" instantiated peripheral_LED "peripheral_LED_0"
+Info: pio_ButSw: Starting RTL generation for module 'niosHello_pio_ButSw'
+Info: pio_ButSw:   Generation command is [exec /home/raphacosta/altera_lite/16.0/quartus/linux64/perl/bin/perl -I /home/raphacosta/altera_lite/16.0/quartus/linux64/perl/lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/europa -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=niosHello_pio_ButSw --dir=/tmp/alt7799_2754828095925252932.dir/0084_pio_ButSw_gen/ --quartus_dir=/home/raphacosta/altera_lite/16.0/quartus --verilog --config=/tmp/alt7799_2754828095925252932.dir/0084_pio_ButSw_gen//niosHello_pio_ButSw_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_ButSw: Done RTL generation for module 'niosHello_pio_ButSw'
+Info: pio_ButSw: "niosHello" instantiated altera_avalon_pio "pio_ButSw"
+Info: ram: Starting RTL generation for module 'niosHello_ram'
+Info: ram:   Generation command is [exec /home/raphacosta/altera_lite/16.0/quartus/linux64/perl/bin/perl -I /home/raphacosta/altera_lite/16.0/quartus/linux64/perl/lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/europa -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=niosHello_ram --dir=/tmp/alt7799_2754828095925252932.dir/0085_ram_gen/ --quartus_dir=/home/raphacosta/altera_lite/16.0/quartus --verilog --config=/tmp/alt7799_2754828095925252932.dir/0085_ram_gen//niosHello_ram_component_configuration.pl  --do_build_sim=0  ]
+Info: ram: Done RTL generation for module 'niosHello_ram'
+Info: ram: "niosHello" instantiated altera_avalon_onchip_memory2 "ram"
+Info: rom: Starting RTL generation for module 'niosHello_rom'
+Info: rom:   Generation command is [exec /home/raphacosta/altera_lite/16.0/quartus/linux64/perl/bin/perl -I /home/raphacosta/altera_lite/16.0/quartus/linux64/perl/lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/europa -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=niosHello_rom --dir=/tmp/alt7799_2754828095925252932.dir/0086_rom_gen/ --quartus_dir=/home/raphacosta/altera_lite/16.0/quartus --verilog --config=/tmp/alt7799_2754828095925252932.dir/0086_rom_gen//niosHello_rom_component_configuration.pl  --do_build_sim=0  ]
+Info: rom: Done RTL generation for module 'niosHello_rom'
+Info: rom: "niosHello" instantiated altera_avalon_onchip_memory2 "rom"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "niosHello" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "niosHello" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "niosHello" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'niosHello_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec /home/raphacosta/altera_lite/16.0/quartus/linux64//eperlcmd -I /home/raphacosta/altera_lite/16.0/quartus/linux64//perl/lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/europa -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I /home/raphacosta/altera_lite/16.0/quartus/sopc_builder/bin -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- /home/raphacosta/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=niosHello_nios2_gen2_0_cpu --dir=/tmp/alt7799_2754828095925252932.dir/0089_cpu_gen/ --quartus_bindir=/home/raphacosta/altera_lite/16.0/quartus/linux64/ --verilog --config=/tmp/alt7799_2754828095925252932.dir/0089_cpu_gen//niosHello_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2018.09.25 05:00:40 (*) Starting Nios II generation
+Info: cpu: # 2018.09.25 05:00:40 (*)   Checking for plaintext license.
+Info: cpu: # 2018.09.25 05:00:40 (*)   Plaintext license not found.
+Info: cpu: # 2018.09.25 05:00:40 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2018.09.25 05:00:40 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2018.09.25 05:00:40 (*)   Creating all objects for CPU
+Info: cpu: # 2018.09.25 05:00:41 (*)   Generating RTL from CPU objects
+Info: cpu: # 2018.09.25 05:00:41 (*)   Creating plain-text RTL
+Info: cpu: # 2018.09.25 05:00:42 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'niosHello_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_005: "mm_interconnect_0" instantiated altera_merlin_router "router_005"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_003: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_003"
+Info: Reusing file /home/raphacosta/Desktop/entrega3/niosHello/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file /home/raphacosta/Desktop/entrega3/niosHello/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file /home/raphacosta/Desktop/entrega3/niosHello/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: niosHello: Done "niosHello" with 30 modules, 44 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

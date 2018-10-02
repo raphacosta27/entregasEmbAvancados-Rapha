@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/raphacosta/Desktop/entrega3/software/hcsr04/obj/default/runtime/sim/mentor
+vniosHello_jtag_uart_0
+Z1 !s110 1538483995
+!i10b 1
+!s100 [K^PYo:EB]5Ie2^@@A^:U1
+IQdRigR0Y]l:EVI3cn?BDP2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1538482586
+Z4 8/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_jtag_uart_0.v
+Z5 F/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_jtag_uart_0.v
+L0 327
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1538483995.000000
+Z8 !s107 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_jtag_uart_0.v|
+Z9 !s90 -reportprogress|300|/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_jtag_uart_0.v|-work|jtag_uart_0|
+!i113 1
+Z10 o-work jtag_uart_0
+nnios@hello_jtag_uart_0
+vniosHello_jtag_uart_0_scfifo_r
+R1
+!i10b 1
+!s100 40n<>mUSLgG1iJB`BoMe92
+I;kU8IKz8CnhCohkZmoA=43
+R2
+R0
+R3
+R4
+R5
+L0 240
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_jtag_uart_0_scfifo_r
+vniosHello_jtag_uart_0_scfifo_w
+R1
+!i10b 1
+!s100 CI8en_C_UfWA1elVcjYj00
+IYJP4NefgR?N;TAJUg[m`Y0
+R2
+R0
+R3
+R4
+R5
+L0 77
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_jtag_uart_0_scfifo_w
+vniosHello_jtag_uart_0_sim_scfifo_r
+R1
+!i10b 1
+!s100 S<3;AJ7ON3Fa8D4ez@ETD3
+Il1<ed2B85JB4UK]iH4FHS2
+R2
+R0
+R3
+R4
+R5
+L0 162
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_jtag_uart_0_sim_scfifo_r
+vniosHello_jtag_uart_0_sim_scfifo_w
+R1
+!i10b 1
+!s100 kiQ0F8Nk]<mdlTX@<f:9<0
+I9N^mY_kQK[A1kh`O=if6f1
+R2
+R0
+R3
+R4
+R5
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_jtag_uart_0_sim_scfifo_w

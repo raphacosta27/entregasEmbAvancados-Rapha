@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/raphacosta/Desktop/entrega3/software/customIp/obj/default/runtime/sim/mentor
+vniosHello_pio_ButSw
+!s110 1537274753
+!i10b 1
+!s100 <Y]27oWD_0hlN;Q^XISJ03
+INXiL;VQGXmFM1XXADLaf<2
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1537270858
+8/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_pio_ButSw.v
+F/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_pio_ButSw.v
+L0 21
+OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1537274753.000000
+!s107 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_pio_ButSw.v|
+!s90 -reportprogress|300|/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_pio_ButSw.v|-work|pio_ButSw|
+!i113 1
+o-work pio_ButSw
+nnios@hello_pio_@but@sw

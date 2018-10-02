@@ -1,0 +1,75 @@
+-- Nao esquecer de limpar irq ao ler o status
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_unsigned.all;
+use IEEE.numeric_std.all;
+use work.all;
+
+entity HC_SR04 is
+    generic (
+        LEN  : natural := 4
+    );
+    port (
+        -- Gloabals
+        clk                : in  std_logic                     := '0';             
+        reset              : in  std_logic                     := '0';             
+
+        -- I/Os
+		  echo					: in std_logic;
+		  trigger				: out std_logic;
+		  
+		  --irq
+		  irq						: out std_logic;
+		  
+        -- Avalion Memmory Mapped Slave
+        avs_address     : in  std_logic_vector(3 downto 0)  := (others => '0'); 
+        avs_read        : in  std_logic                     := '0';             
+        avs_readdata    : out std_logic_vector(31 downto 0) := (others => '0'); 
+        avs_write       : in  std_logic                     := '0';             
+        avs_writedata   : in  std_logic_vector(31 downto 0) := (others => '0')
+	);
+end entity HC_SR04;
+
+architecture rtl of HC_SR04 is
+
+signal REG_CONFIG : STD_LOGIC_VECTOR(31 DOWNTO 0);
+signal REG_COUNTER : STD_LOGIC_VECTOR(31 DOWNTO 0);
+
+
+begin
+
+  process(clk)
+  begin
+    if (reset = '1') then
+      trigger 			<= '0';
+		REG_CONFIG 		<= (others => '0');
+		REG_COUNTER 	<= x"A5A5A5A5";
+
+		
+    elsif(rising_edge(clk)) then
+			if(avs_write = '1') then
+				if(avs_address = "0000") then                  -- REG_DATA
+					REG_CONFIG(0) <= avs_writedata(0);
+				elsif (avs_address = "0001") then
+					REG_COUNTER <= avs_writedata;
+				end if;
+			end if;
+			
+			if(avs_read = '1') then
+				if(avs_address = "0000") then                  -- REG_DAT
+					avs_readdata <= REG_CONFIG;
+				elsif (avs_address = "0001") then
+					avs_readdata <= REG_COUNTER;
+				end if;
+			end if;
+			
+			REG_CONFIG(1) <= echo;
+
+    end if;
+  end process;
+  
+  
+  triger <= REG_CONFIG(0);
+
+end rtl;

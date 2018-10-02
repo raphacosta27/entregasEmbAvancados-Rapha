@@ -1,0 +1,933 @@
+Archive member included to satisfy reference by file (symbol)
+
+../customIp_bsp//libhal_bsp.a(alt_load.o)
+                              ../customIp_bsp//obj/HAL/src/crt0.o (alt_load)
+../customIp_bsp//libhal_bsp.a(alt_main.o)
+                              ../customIp_bsp//obj/HAL/src/crt0.o (alt_main)
+../customIp_bsp//libhal_bsp.a(alt_sys_init.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_main.o) (alt_irq_init)
+../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_init)
+../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                              ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_ioctl)
+../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+../customIp_bsp//libhal_bsp.a(alt_alarm_start.o)
+                              ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_alarm_start)
+../customIp_bsp//libhal_bsp.a(alt_close.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_main.o) (close)
+../customIp_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../customIp_bsp//libhal_bsp.a(alt_dev.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+../customIp_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+../customIp_bsp//libhal_bsp.a(alt_do_ctors.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_main.o) (_do_ctors)
+../customIp_bsp//libhal_bsp.a(alt_do_dtors.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_main.o) (_do_dtors)
+../customIp_bsp//libhal_bsp.a(alt_errno.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_close.o) (alt_errno)
+../customIp_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../customIp_bsp//libhal_bsp.a(alt_iic.o)
+                              ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_ic_isr_register)
+../customIp_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+../customIp_bsp//libhal_bsp.a(alt_irq_entry.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+../customIp_bsp//libhal_bsp.a(alt_irq_handler.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_iic_isr_register.o) (alt_irq)
+../customIp_bsp//libhal_bsp.a(alt_irq_vars.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_iic.o) (alt_irq_active)
+../customIp_bsp//libhal_bsp.a(alt_release_fd.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_close.o) (alt_release_fd)
+../customIp_bsp//libhal_bsp.a(alt_tick.o)
+                              ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o) (_alt_tick_rate)
+../customIp_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+../customIp_bsp//libhal_bsp.a(alt_exception_entry.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+../customIp_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_exception_entry.o) (alt_instruction_exception_entry)
+/home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-atexit.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_main.o) (atexit)
+/home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_main.o) (exit)
+/home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-impure.o)
+                              /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o) (_global_impure_ptr)
+/home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-int_errno.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_close.o) (errno)
+/home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-memcpy.o)
+                              ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o) (memcpy)
+/home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__atexit.o)
+                              /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-atexit.o) (__register_exitproc)
+/home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__call_atexit.o)
+                              /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o) (__call_exitprocs)
+/home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul/libgcc.a(lib2-mul.o)
+                              ../customIp_bsp//libhal_bsp.a(alt_close.o) (__mulsi3)
+../customIp_bsp//libhal_bsp.a(alt_exit.o)
+                              /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             ../customIp_bsp//libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000040000 0x0000000000000020
+rom              0x0000000000040020 0x000000000003ffe0
+ram              0x0000000000080000 0x0000000000040000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ../customIp_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/hello_world.o
+LOAD /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libstdc++.a
+LOAD /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libm.a
+LOAD /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul/libgcc.a
+START GROUP
+LOAD /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a
+LOAD /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul/libgcc.a
+LOAD ../customIp_bsp//libhal_bsp.a
+LOAD /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libm.a
+END GROUP
+LOAD /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul/libgcc.a
+                0x0000000000040000                __alt_mem_rom = 0x40000
+                0x0000000000080000                __alt_mem_ram = 0x80000
+
+.entry          0x0000000000040000       0x20
+ *(.entry)
+ .entry         0x0000000000040000       0x20 ../customIp_bsp//obj/HAL/src/crt0.o
+                0x0000000000040000                __reset
+
+.exceptions     0x0000000000040020      0x210
+                0x0000000000040020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000000040020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x0000000000040020        0x0 ../customIp_bsp//libhal_bsp.a(alt_irq_entry.o)
+                0x0000000000040020                alt_irq_entry
+ .exceptions.entry.label
+                0x0000000000040020        0x0 ../customIp_bsp//libhal_bsp.a(alt_exception_entry.o)
+                0x0000000000040020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x0000000000040020       0x54 ../customIp_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x0000000000040074       0x10 ../customIp_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x0000000000040084        0x4 ../customIp_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x0000000000040088        0x4 ../customIp_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000000000004008c        0x0 ../customIp_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000000000004008c        0x8 ../customIp_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x0000000000040094       0x14 ../customIp_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000000000400a8        0x0 ../customIp_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000000000400a8        0x0 ../customIp_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000000000400a8       0x54 ../customIp_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x00000000000400fc       0xd4 ../customIp_bsp//libhal_bsp.a(alt_irq_handler.o)
+                0x00000000000400fc                alt_irq_handler
+ .exceptions    0x00000000000401d0       0x60 ../customIp_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x00000000000401d0                alt_instruction_exception_entry
+                0x0000000000040230                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000000040020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x0000000000040230     0x1bb4
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000040230       0x1c ../customIp_bsp//obj/HAL/src/crt0.o
+                0x0000000000040230                _start
+ .text          0x000000000004024c       0x54 obj/default/hello_world.o
+                0x000000000004024c                main
+ .text          0x00000000000402a0       0xec ../customIp_bsp//libhal_bsp.a(alt_load.o)
+                0x0000000000040308                alt_load
+ .text          0x000000000004038c       0x60 ../customIp_bsp//libhal_bsp.a(alt_main.o)
+                0x000000000004038c                alt_main
+ .text          0x00000000000403ec       0xb8 ../customIp_bsp//libhal_bsp.a(alt_sys_init.o)
+                0x0000000000040424                alt_irq_init
+                0x000000000004045c                alt_sys_init
+ .text          0x00000000000404a4      0x164 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x00000000000404a4                altera_avalon_jtag_uart_read_fd
+                0x0000000000040504                altera_avalon_jtag_uart_write_fd
+                0x0000000000040564                altera_avalon_jtag_uart_close_fd
+                0x00000000000405b4                altera_avalon_jtag_uart_ioctl_fd
+ .text          0x0000000000040608      0x3e4 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                0x0000000000040608                altera_avalon_jtag_uart_init
+                0x0000000000040984                altera_avalon_jtag_uart_close
+ .text          0x00000000000409ec       0xf0 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                0x00000000000409ec                altera_avalon_jtag_uart_ioctl
+ .text          0x0000000000040adc      0x21c ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x0000000000040adc                altera_avalon_jtag_uart_read
+ .text          0x0000000000040cf8      0x224 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x0000000000040cf8                altera_avalon_jtag_uart_write
+ .text          0x0000000000040f1c      0x140 ../customIp_bsp//libhal_bsp.a(alt_alarm_start.o)
+                0x0000000000040f1c                alt_alarm_start
+ .text          0x000000000004105c      0x128 ../customIp_bsp//libhal_bsp.a(alt_close.o)
+                0x00000000000410ac                close
+ .text          0x0000000000041184       0x20 ../customIp_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                0x0000000000041184                alt_dcache_flush_all
+ .text          0x00000000000411a4       0x2c ../customIp_bsp//libhal_bsp.a(alt_dev.o)
+ .text          0x00000000000411d0       0xf4 ../customIp_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                0x0000000000041220                alt_dev_llist_insert
+ .text          0x00000000000412c4       0x60 ../customIp_bsp//libhal_bsp.a(alt_do_ctors.o)
+                0x00000000000412c4                _do_ctors
+ .text          0x0000000000041324       0x60 ../customIp_bsp//libhal_bsp.a(alt_do_dtors.o)
+                0x0000000000041324                _do_dtors
+ .text          0x0000000000041384        0x0 ../customIp_bsp//libhal_bsp.a(alt_errno.o)
+ .text          0x0000000000041384       0x20 ../customIp_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                0x0000000000041384                alt_icache_flush_all
+ .text          0x00000000000413a4      0x1e0 ../customIp_bsp//libhal_bsp.a(alt_iic.o)
+                0x00000000000413a4                alt_ic_isr_register
+                0x00000000000413f4                alt_ic_irq_enable
+                0x0000000000041494                alt_ic_irq_disable
+                0x0000000000041538                alt_ic_irq_enabled
+ .text          0x0000000000041584       0xf0 ../customIp_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                0x0000000000041584                alt_iic_isr_register
+ .text          0x0000000000041674        0x0 ../customIp_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .text          0x0000000000041674        0x0 ../customIp_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .text          0x0000000000041674        0x0 ../customIp_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .text          0x0000000000041674       0x84 ../customIp_bsp//libhal_bsp.a(alt_release_fd.o)
+                0x0000000000041674                alt_release_fd
+ .text          0x00000000000416f8      0x1a4 ../customIp_bsp//libhal_bsp.a(alt_tick.o)
+                0x00000000000416f8                alt_alarm_stop
+                0x0000000000041794                alt_tick
+ .text          0x000000000004189c       0x24 ../customIp_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x000000000004189c                altera_nios2_gen2_irq_init
+ .text          0x00000000000418c0        0x0 ../customIp_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .text          0x00000000000418c0       0x9c ../customIp_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x00000000000418c0                alt_exception_cause_generated_bad_addr
+ .text          0x000000000004195c        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-atexit.o)
+ .text.atexit   0x000000000004195c       0x14 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-atexit.o)
+                0x000000000004195c                atexit
+ .text          0x0000000000041970        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o)
+ .text.exit     0x0000000000041970       0x38 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o)
+                0x0000000000041970                exit
+ .text          0x00000000000419a8        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-impure.o)
+ .text          0x00000000000419a8        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-int_errno.o)
+ .text          0x00000000000419a8        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-memcpy.o)
+ .text.memcpy   0x00000000000419a8      0x148 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-memcpy.o)
+                0x00000000000419a8                memcpy
+ .text          0x0000000000041af0        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0x0000000000041af0      0x118 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__atexit.o)
+                0x0000000000041af0                __register_exitproc
+ .text          0x0000000000041c08        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000041c08      0x180 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__call_atexit.o)
+                0x0000000000041c08                __call_exitprocs
+ .text          0x0000000000041d88       0x28 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul/libgcc.a(lib2-mul.o)
+                0x0000000000041d88                __mulsi3
+ .text          0x0000000000041db0       0x34 ../customIp_bsp//libhal_bsp.a(alt_exit.o)
+                0x0000000000041db0                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0000000000041de4                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x0000000000041de4                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x0000000000041de4                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x0000000000041de4                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x0000000000041de4                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x0000000000041de4                . = ALIGN (0x4)
+
+.rodata         0x0000000000080000       0x24 load address 0x0000000000041de4
+                0x0000000000080000                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x0000000000080000                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000000080000       0x11 ../customIp_bsp//libhal_bsp.a(alt_sys_init.o)
+ *fill*         0x0000000000080011        0x3 
+ .rodata        0x0000000000080014        0xa ../customIp_bsp//libhal_bsp.a(alt_dev.o)
+ *fill*         0x000000000008001e        0x2 
+ .rodata.str1.4
+                0x0000000000080020        0x4 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-impure.o)
+                                          0x2 (size before relaxing)
+ *(.rodata1)
+                0x0000000000080024                . = ALIGN (0x4)
+                0x0000000000080024                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x0000000000041de4                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x0000000000080024     0x1658 load address 0x0000000000041e08
+                0x0000000000080024                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x0000000000080024                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000080024        0x0 ../customIp_bsp//obj/HAL/src/crt0.o
+ .data          0x0000000000080024        0x0 obj/default/hello_world.o
+ .data          0x0000000000080024        0x0 ../customIp_bsp//libhal_bsp.a(alt_load.o)
+ .data          0x0000000000080024        0x0 ../customIp_bsp//libhal_bsp.a(alt_main.o)
+ .data          0x0000000000080024     0x1060 ../customIp_bsp//libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000000000081084        0x0 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x0000000000081084        0x0 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .data          0x0000000000081084        0x0 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .data          0x0000000000081084        0x0 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x0000000000081084        0x0 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x0000000000081084        0x0 ../customIp_bsp//libhal_bsp.a(alt_alarm_start.o)
+ .data          0x0000000000081084        0x0 ../customIp_bsp//libhal_bsp.a(alt_close.o)
+ .data          0x0000000000081084        0x0 ../customIp_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000000000081084      0x1a8 ../customIp_bsp//libhal_bsp.a(alt_dev.o)
+                0x0000000000081084                alt_dev_null
+                0x00000000000810ac                alt_fd_list
+ .data          0x000000000008122c        0x0 ../customIp_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x000000000008122c        0x0 ../customIp_bsp//libhal_bsp.a(alt_do_ctors.o)
+ .data          0x000000000008122c        0x0 ../customIp_bsp//libhal_bsp.a(alt_do_dtors.o)
+ .data          0x000000000008122c        0x0 ../customIp_bsp//libhal_bsp.a(alt_errno.o)
+ .data          0x000000000008122c        0x0 ../customIp_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x000000000008122c        0x0 ../customIp_bsp//libhal_bsp.a(alt_iic.o)
+ .data          0x000000000008122c        0x0 ../customIp_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x000000000008122c        0x0 ../customIp_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .data          0x000000000008122c        0x0 ../customIp_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .data          0x000000000008122c        0x0 ../customIp_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .data          0x000000000008122c        0x0 ../customIp_bsp//libhal_bsp.a(alt_release_fd.o)
+ .data          0x000000000008122c        0x0 ../customIp_bsp//libhal_bsp.a(alt_tick.o)
+ .data          0x000000000008122c        0x0 ../customIp_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x000000000008122c        0x0 ../customIp_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .data          0x000000000008122c        0x0 ../customIp_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x000000000008122c        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-atexit.o)
+ .data          0x000000000008122c        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o)
+ .data          0x000000000008122c        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x000000000008122c      0x424 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-impure.o)
+ .data          0x0000000000081650        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-int_errno.o)
+ .data          0x0000000000081650        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-memcpy.o)
+ .data          0x0000000000081650        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__atexit.o)
+ .data          0x0000000000081650        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__call_atexit.o)
+ .data          0x0000000000081650        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .data          0x0000000000081650        0x0 ../customIp_bsp//libhal_bsp.a(alt_exit.o)
+                0x0000000000089650                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000000081650       0x14 ../customIp_bsp//libhal_bsp.a(alt_dev.o)
+                0x0000000000081650                alt_fs_list
+                0x0000000000081658                alt_dev_list
+                0x0000000000081660                alt_max_fd
+ .sdata         0x0000000000081664        0x4 ../customIp_bsp//libhal_bsp.a(alt_errno.o)
+                0x0000000000081664                alt_errno
+ .sdata         0x0000000000081668        0x4 ../customIp_bsp//libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000081668                alt_priority_mask
+ .sdata         0x000000000008166c        0x8 ../customIp_bsp//libhal_bsp.a(alt_tick.o)
+                0x000000000008166c                alt_alarm_list
+ .sdata._global_impure_ptr
+                0x0000000000081674        0x4 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-impure.o)
+                0x0000000000081674                _global_impure_ptr
+ .sdata._impure_ptr
+                0x0000000000081678        0x4 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-impure.o)
+                0x0000000000081678                _impure_ptr
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x000000000008167c                . = ALIGN (0x4)
+                0x000000000008167c                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x000000000008167c                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x0000000000041e08                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x000000000008167c      0x120 load address 0x0000000000043460
+                0x000000000008167c                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x000000000008167c        0xc ../customIp_bsp//libhal_bsp.a(alt_main.o)
+                0x000000000008167c                alt_argc
+                0x0000000000081680                alt_argv
+                0x0000000000081684                alt_envp
+ .sbss          0x0000000000081688        0x4 ../customIp_bsp//libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000081688                alt_irq_active
+ .sbss          0x000000000008168c        0x8 ../customIp_bsp//libhal_bsp.a(alt_tick.o)
+                0x000000000008168c                _alt_tick_rate
+                0x0000000000081690                _alt_nticks
+ .sbss          0x0000000000081694        0x4 ../customIp_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000000081694                alt_instruction_exception_handler
+ .sbss          0x0000000000081698        0x4 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-int_errno.o)
+                0x0000000000081698                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//obj/HAL/src/crt0.o
+ .bss           0x000000000008169c        0x0 obj/default/hello_world.o
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_load.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_main.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_sys_init.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_alarm_start.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_close.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_dev.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_errno.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_iic.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_release_fd.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_tick.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x000000000008169c        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-atexit.o)
+ .bss           0x000000000008169c        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o)
+ .bss           0x000000000008169c        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-impure.o)
+ .bss           0x000000000008169c        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-int_errno.o)
+ .bss           0x000000000008169c        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-memcpy.o)
+ .bss           0x000000000008169c        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__atexit.o)
+ .bss           0x000000000008169c        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__call_atexit.o)
+ .bss           0x000000000008169c        0x0 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .bss           0x000000000008169c        0x0 ../customIp_bsp//libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+ COMMON         0x000000000008169c      0x100 ../customIp_bsp//libhal_bsp.a(alt_irq_handler.o)
+                0x000000000008169c                alt_irq
+                0x000000000008179c                . = ALIGN (0x4)
+                0x000000000008179c                __bss_end = ABSOLUTE (.)
+
+.rom            0x0000000000043460        0x0
+                [!provide]                        PROVIDE (_alt_partition_rom_start, ABSOLUTE (.))
+ *(.rom .rom. rom.*)
+                0x0000000000043460                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_rom_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_alt_partition_rom_load_addr, LOADADDR (.rom))
+
+.ram            0x000000000008179c        0x0 load address 0x0000000000043460
+                [!provide]                        PROVIDE (_alt_partition_ram_start, ABSOLUTE (.))
+ *(.ram .ram. ram.*)
+                0x000000000008179c                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_ram_end, ABSOLUTE (.))
+                0x000000000008179c                _end = ABSOLUTE (.)
+                0x000000000008179c                end = ABSOLUTE (.)
+                0x000000000008179c                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_ram_load_addr, LOADADDR (.ram))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/hello_world.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_load.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_main.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_alarm_start.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_close.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_dev.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_errno.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_iic.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_release_fd.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_tick.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .comment       0x0000000000000023       0x24 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-atexit.o)
+ .comment       0x0000000000000023       0x24 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o)
+ .comment       0x0000000000000023       0x24 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-impure.o)
+ .comment       0x0000000000000023       0x24 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-int_errno.o)
+ .comment       0x0000000000000023       0x24 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000023       0x24 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__atexit.o)
+ .comment       0x0000000000000023       0x24 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000023       0x24 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .comment       0x0000000000000023       0x24 ../customIp_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x4d8
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 ../customIp_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/hello_world.o
+ .debug_aranges
+                0x0000000000000048       0x20 ../customIp_bsp//libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000068       0x20 ../customIp_bsp//libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000088       0x20 ../customIp_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_aranges
+                0x0000000000000108       0x20 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x0000000000000128       0x20 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x0000000000000148       0x20 ../customIp_bsp//libhal_bsp.a(alt_alarm_start.o)
+ .debug_aranges
+                0x0000000000000168       0x20 ../customIp_bsp//libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x0000000000000188       0x20 ../customIp_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000000000001a8       0x20 ../customIp_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x00000000000001c8       0x20 ../customIp_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x00000000000001e8       0x20 ../customIp_bsp//libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x0000000000000208       0x20 ../customIp_bsp//libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x0000000000000228       0x18 ../customIp_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x0000000000000240       0x20 ../customIp_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x0000000000000260       0x20 ../customIp_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x0000000000000280       0x20 ../customIp_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x00000000000002a0       0x30 ../customIp_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x00000000000002d0       0x20 ../customIp_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x00000000000002f0       0x18 ../customIp_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x0000000000000308       0x20 ../customIp_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x0000000000000328       0x20 ../customIp_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x0000000000000348       0x20 ../customIp_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x0000000000000368       0x38 ../customIp_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x00000000000003a0       0x28 ../customIp_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_aranges
+                0x00000000000003c8       0x20 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x00000000000003e8       0x20 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000408       0x18 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000420       0x18 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x0000000000000438       0x20 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x0000000000000458       0x20 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x0000000000000478       0x20 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x0000000000000498       0x20 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .debug_aranges
+                0x00000000000004b8       0x20 ../customIp_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x61c1
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x6c ../customIp_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x000000000000006c       0xbd obj/default/hello_world.o
+ .debug_info    0x0000000000000129      0x145 ../customIp_bsp//libhal_bsp.a(alt_load.o)
+ .debug_info    0x000000000000026e      0x131 ../customIp_bsp//libhal_bsp.a(alt_main.o)
+ .debug_info    0x000000000000039f      0x4c3 ../customIp_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000000862      0x52e ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x0000000000000d90      0x3a0 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_info    0x0000000000001130      0x280 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_info    0x00000000000013b0      0x345 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x00000000000016f5      0x340 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x0000000000001a35      0x2cc ../customIp_bsp//libhal_bsp.a(alt_alarm_start.o)
+ .debug_info    0x0000000000001d01      0x321 ../customIp_bsp//libhal_bsp.a(alt_close.o)
+ .debug_info    0x0000000000002022       0x92 ../customIp_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x00000000000020b4      0x49c ../customIp_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_info    0x0000000000002550      0x1a9 ../customIp_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x00000000000026f9       0x83 ../customIp_bsp//libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x000000000000277c       0x83 ../customIp_bsp//libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x00000000000027ff       0xa6 ../customIp_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_info    0x00000000000028a5       0x92 ../customIp_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x0000000000002937      0x350 ../customIp_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_info    0x0000000000002c87      0x1ef ../customIp_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x0000000000002e76       0x75 ../customIp_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x0000000000002eeb      0x187 ../customIp_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x0000000000003072       0x88 ../customIp_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x00000000000030fa      0x2b0 ../customIp_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x00000000000033aa      0x299 ../customIp_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_info    0x0000000000003643       0x92 ../customIp_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x00000000000036d5       0x7b ../customIp_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x0000000000003750      0x1e7 ../customIp_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x0000000000003937       0xfe /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-atexit.o)
+ .debug_info    0x0000000000003a35      0x8e4 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o)
+ .debug_info    0x0000000000004319      0x8a1 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-impure.o)
+ .debug_info    0x0000000000004bba       0x8a /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-int_errno.o)
+ .debug_info    0x0000000000004c44      0x144 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-memcpy.o)
+ .debug_info    0x0000000000004d88      0x934 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__atexit.o)
+ .debug_info    0x00000000000056bc      0x965 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000000000006021       0xb4 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .debug_info    0x00000000000060d5       0xec ../customIp_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x0000000000000000     0x22c9
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 ../customIp_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012       0x6d obj/default/hello_world.o
+ .debug_abbrev  0x000000000000007f       0x9f ../customIp_bsp//libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x000000000000011e       0xba ../customIp_bsp//libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x00000000000001d8      0x187 ../customIp_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x000000000000035f      0x127 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x0000000000000486      0x19e ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_abbrev  0x0000000000000624      0x111 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_abbrev  0x0000000000000735      0x1aa ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x00000000000008df      0x1a8 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x0000000000000a87      0x162 ../customIp_bsp//libhal_bsp.a(alt_alarm_start.o)
+ .debug_abbrev  0x0000000000000be9      0x11f ../customIp_bsp//libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x0000000000000d08       0x42 ../customIp_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000000d4a       0xd9 ../customIp_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x0000000000000e23      0x114 ../customIp_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x0000000000000f37       0x79 ../customIp_bsp//libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x0000000000000fb0       0x79 ../customIp_bsp//libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x0000000000001029       0x5a ../customIp_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000000000001083       0x42 ../customIp_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x00000000000010c5      0x163 ../customIp_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000000000001228      0x169 ../customIp_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x0000000000001391       0x12 ../customIp_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x00000000000013a3      0x122 ../customIp_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x00000000000014c5       0x40 ../customIp_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x0000000000001505       0xde ../customIp_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x00000000000015e3      0x15a ../customIp_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x000000000000173d       0x42 ../customIp_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x000000000000177f       0x12 ../customIp_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x0000000000001791       0xdc ../customIp_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_abbrev  0x000000000000186d       0xaa /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x0000000000001917      0x1e5 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o)
+ .debug_abbrev  0x0000000000001afc      0x18f /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000001c8b       0x37 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000000000001cc2       0xa3 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000001d65      0x21e /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x0000000000001f83      0x22e /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x00000000000021b1       0x6f /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .debug_abbrev  0x0000000000002220       0xa9 ../customIp_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x0000000000000000     0x21cf
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x5c ../customIp_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x000000000000005c       0x45 obj/default/hello_world.o
+ .debug_line    0x00000000000000a1       0x8e ../customIp_bsp//libhal_bsp.a(alt_load.o)
+ .debug_line    0x000000000000012f       0xa0 ../customIp_bsp//libhal_bsp.a(alt_main.o)
+ .debug_line    0x00000000000001cf      0x136 ../customIp_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000000000000305      0x12f ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x0000000000000434      0x18b ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_line    0x00000000000005bf      0x131 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_line    0x00000000000006f0      0x171 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x0000000000000861      0x170 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x00000000000009d1       0xfa ../customIp_bsp//libhal_bsp.a(alt_alarm_start.o)
+ .debug_line    0x0000000000000acb      0x176 ../customIp_bsp//libhal_bsp.a(alt_close.o)
+ .debug_line    0x0000000000000c41       0x51 ../customIp_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000000c92      0x108 ../customIp_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_line    0x0000000000000d9a       0xd0 ../customIp_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x0000000000000e6a       0x59 ../customIp_bsp//libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x0000000000000ec3       0x59 ../customIp_bsp//libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x0000000000000f1c       0x51 ../customIp_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_line    0x0000000000000f6d       0x4f ../customIp_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000000fbc       0xef ../customIp_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_line    0x00000000000010ab       0xdb ../customIp_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x0000000000001186       0x6b ../customIp_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x00000000000011f1       0xaa ../customIp_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x000000000000129b       0x50 ../customIp_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x00000000000012eb       0xb0 ../customIp_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x000000000000139b       0xff ../customIp_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_line    0x000000000000149a       0x51 ../customIp_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x00000000000014eb       0xb3 ../customIp_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x000000000000159e       0xb9 ../customIp_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x0000000000001657       0xe7 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-atexit.o)
+ .debug_line    0x000000000000173e      0x1fc /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o)
+ .debug_line    0x000000000000193a      0x160 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-impure.o)
+ .debug_line    0x0000000000001a9a       0x5f /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-int_errno.o)
+ .debug_line    0x0000000000001af9      0x18c /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-memcpy.o)
+ .debug_line    0x0000000000001c85      0x21f /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__atexit.o)
+ .debug_line    0x0000000000001ea4      0x23a /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x00000000000020de       0x80 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .debug_line    0x000000000000215e       0x71 ../customIp_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x0000000000000000      0x8c8
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x2c obj/default/hello_world.o
+ .debug_frame   0x000000000000002c       0x5c ../customIp_bsp//libhal_bsp.a(alt_load.o)
+ .debug_frame   0x0000000000000088       0x2c ../customIp_bsp//libhal_bsp.a(alt_main.o)
+ .debug_frame   0x00000000000000b4       0x88 ../customIp_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x000000000000013c       0xb0 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x00000000000001ec       0xa4 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_frame   0x0000000000000290       0x34 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_frame   0x00000000000002c4       0x38 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x00000000000002fc       0x38 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x0000000000000334       0x34 ../customIp_bsp//libhal_bsp.a(alt_alarm_start.o)
+ .debug_frame   0x0000000000000368       0x60 ../customIp_bsp//libhal_bsp.a(alt_close.o)
+ .debug_frame   0x00000000000003c8       0x34 ../customIp_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000000000003fc       0x34 ../customIp_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x0000000000000430       0x60 ../customIp_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x0000000000000490       0x38 ../customIp_bsp//libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x00000000000004c8       0x38 ../customIp_bsp//libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x0000000000000500       0x34 ../customIp_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000000534       0xa4 ../customIp_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x00000000000005d8       0x38 ../customIp_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x0000000000000610       0x38 ../customIp_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x0000000000000648       0x3c ../customIp_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x0000000000000684       0x5c ../customIp_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x00000000000006e0       0x34 ../customIp_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x0000000000000714       0x5c ../customIp_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_frame   0x0000000000000770       0x20 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000790       0x28 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o)
+ .debug_frame   0x00000000000007b8       0x38 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-memcpy.o)
+ .debug_frame   0x00000000000007f0       0x38 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000000828       0x54 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x000000000000087c       0x20 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul/libgcc.a(lib2-mul.o)
+ .debug_frame   0x000000000000089c       0x2c ../customIp_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x0000000000000000     0x1a0e
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0xe7 obj/default/hello_world.o
+                                        0x125 (size before relaxing)
+ .debug_str     0x00000000000000e7      0x171 ../customIp_bsp//libhal_bsp.a(alt_load.o)
+                                        0x20f (size before relaxing)
+ .debug_str     0x0000000000000258       0x70 ../customIp_bsp//libhal_bsp.a(alt_main.o)
+                                        0x19a (size before relaxing)
+ .debug_str     0x00000000000002c8      0x1a2 ../customIp_bsp//libhal_bsp.a(alt_sys_init.o)
+                                        0x355 (size before relaxing)
+ .debug_str     0x000000000000046a       0xb9 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                        0x3a1 (size before relaxing)
+ .debug_str     0x0000000000000523       0xd1 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                                        0x335 (size before relaxing)
+ .debug_str     0x00000000000005f4       0x4a ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                                        0x290 (size before relaxing)
+ .debug_str     0x000000000000063e       0x7f ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x2e5 (size before relaxing)
+ .debug_str     0x00000000000006bd       0x4a ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x2e6 (size before relaxing)
+ .debug_str     0x0000000000000707       0x59 ../customIp_bsp//libhal_bsp.a(alt_alarm_start.o)
+                                        0x27b (size before relaxing)
+ .debug_str     0x0000000000000760       0x44 ../customIp_bsp//libhal_bsp.a(alt_close.o)
+                                        0x208 (size before relaxing)
+ .debug_str     0x00000000000007a4       0x34 ../customIp_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x152 (size before relaxing)
+ .debug_str     0x00000000000007d8      0x120 ../customIp_bsp//libhal_bsp.a(alt_dev.o)
+                                        0x302 (size before relaxing)
+ .debug_str     0x00000000000008f8       0x34 ../customIp_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x1c9 (size before relaxing)
+ .debug_str     0x000000000000092c       0x48 ../customIp_bsp//libhal_bsp.a(alt_do_ctors.o)
+                                         0xcd (size before relaxing)
+ .debug_str     0x0000000000000974       0x4c ../customIp_bsp//libhal_bsp.a(alt_do_dtors.o)
+                                         0xcc (size before relaxing)
+ .debug_str     0x00000000000009c0       0x14 ../customIp_bsp//libhal_bsp.a(alt_errno.o)
+                                        0x142 (size before relaxing)
+ .debug_str     0x00000000000009d4       0x34 ../customIp_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x152 (size before relaxing)
+ .debug_str     0x0000000000000a08       0xc4 ../customIp_bsp//libhal_bsp.a(alt_iic.o)
+                                        0x23b (size before relaxing)
+ .debug_str     0x0000000000000acc       0x4c ../customIp_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                                        0x1e5 (size before relaxing)
+ .debug_str     0x0000000000000b18       0x3a ../customIp_bsp//libhal_bsp.a(alt_irq_handler.o)
+                                        0x194 (size before relaxing)
+ .debug_str     0x0000000000000b52       0x17 ../customIp_bsp//libhal_bsp.a(alt_irq_vars.o)
+                                        0x137 (size before relaxing)
+ .debug_str     0x0000000000000b69       0x28 ../customIp_bsp//libhal_bsp.a(alt_release_fd.o)
+                                        0x1d0 (size before relaxing)
+ .debug_str     0x0000000000000b91       0x4a ../customIp_bsp//libhal_bsp.a(alt_tick.o)
+                                        0x24f (size before relaxing)
+ .debug_str     0x0000000000000bdb       0x3b ../customIp_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x159 (size before relaxing)
+ .debug_str     0x0000000000000c16      0x48b ../customIp_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                                        0x59d (size before relaxing)
+ .debug_str     0x00000000000010a1      0x17d /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-atexit.o)
+                                        0x222 (size before relaxing)
+ .debug_str     0x000000000000121e      0x3c1 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o)
+                                        0x5bf (size before relaxing)
+ .debug_str     0x00000000000015df       0xd7 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-impure.o)
+                                        0x5b6 (size before relaxing)
+ .debug_str     0x00000000000016b6       0x3f /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-int_errno.o)
+                                        0x1de (size before relaxing)
+ .debug_str     0x00000000000016f5      0x102 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-memcpy.o)
+                                        0x20c (size before relaxing)
+ .debug_str     0x00000000000017f7       0x3f /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__atexit.o)
+                                        0x5f7 (size before relaxing)
+ .debug_str     0x0000000000001836       0x65 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__call_atexit.o)
+                                        0x5e3 (size before relaxing)
+ .debug_str     0x000000000000189b      0x149 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul/libgcc.a(lib2-mul.o)
+                                        0x194 (size before relaxing)
+ .debug_str     0x00000000000019e4       0x2a ../customIp_bsp//libhal_bsp.a(alt_exit.o)
+                                        0x14e (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x696
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x2c /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-atexit.o)
+ .debug_loc     0x000000000000002c       0x1e /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o)
+ .debug_loc     0x000000000000004a      0x266 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-memcpy.o)
+ .debug_loc     0x00000000000002b0      0x185 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__atexit.o)
+ .debug_loc     0x0000000000000435      0x1ce /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x0000000000000603       0x93 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul/libgcc.a(lib2-mul.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+ *(.debug_alt_sim_info)
+                0x00000000000c0000                __alt_data_end = 0xc0000
+                0x00000000000c0000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start, end)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0xc0000)
+OUTPUT(RUN_ON_HDL_SIMULATOR_ONLY_customIp.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x158
+ .debug_ranges  0x0000000000000000       0x20 ../customIp_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x30 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_ranges  0x0000000000000050       0x18 ../customIp_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_ranges  0x0000000000000068       0x28 ../customIp_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x0000000000000090       0x10 ../customIp_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x00000000000000a0       0x30 ../customIp_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x00000000000000d0       0x18 ../customIp_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_ranges  0x00000000000000e8       0x10 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-atexit.o)
+ .debug_ranges  0x00000000000000f8       0x10 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-exit.o)
+ .debug_ranges  0x0000000000000108       0x10 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-memcpy.o)
+ .debug_ranges  0x0000000000000118       0x10 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__atexit.o)
+ .debug_ranges  0x0000000000000128       0x30 /home/raphacosta/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mno-hw-mul/libc.a(lib_a-__call_atexit.o)

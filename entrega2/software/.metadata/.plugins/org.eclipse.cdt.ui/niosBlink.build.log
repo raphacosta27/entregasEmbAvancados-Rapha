@@ -1,0 +1,45 @@
+06:08:39 **** Incremental Build of configuration Nios II for project niosBlink ****
+make all 
+Info: Building ../niosBlink_bsp/
+make --no-print-directory -C ../niosBlink_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../niosBlink_bsp//HAL/inc -I../niosBlink_bsp/ -I../niosBlink_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED -DALTERA_AVALON_JTAG_UART_SMALL    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'main':
+hello_world.c:25:3: warning: implicit declaration of function 'init_pio' [-Wimplicit-function-declaration]
+   init_pio();
+   ^
+hello_world.c:29:5: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+     usleep(50000);
+     ^
+hello_world.c: In function 'handle_button_interrupts':
+hello_world.c:52:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'alt_u32 {aka volatile long unsigned int}' [-Wformat=]
+  printf("butsw: %d \n", butsw);
+         ^
+hello_world.c:52:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'alt_u32 {aka volatile long unsigned int}' [-Wformat=]
+hello_world.c: At top level:
+hello_world.c:57:6: warning: conflicting types for 'init_pio'
+ void init_pio(){
+      ^
+hello_world.c:25:3: note: previous implicit declaration of 'init_pio' was here
+   init_pio();
+   ^
+hello_world.c: In function 'init_pio':
+hello_world.c:66:2: warning: implicit declaration of function 'alt_irq_register' [-Wimplicit-function-declaration]
+  alt_irq_register( PIO_1_IRQ, edge_capture_ptr,
+  ^
+hello_world.c: In function 'delay':
+hello_world.c:19:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Linking niosBlink.elf
+nios2-elf-g++  -T'../niosBlink_bsp//linker.x' -msys-crt0='../niosBlink_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../niosBlink_bsp/   -Wl,-Map=niosBlink.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o niosBlink.elf obj/default/hello_world.o -lm -msys-lib=m
+../niosBlink_bsp//libhal_bsp.a(alt_load.o): In function `alt_load':
+/home/raphacosta/Desktop/entregasEmbAvancados-Rapha/entrega2/software/niosBlink_bsp/HAL/src/alt_load.c:62: warning: Unable to reach (null) (at 0x00080338) from the global pointer (at 0x00088db0) because the offset (-35448) is out of the allowed range, -32678 to 32767.
+
+collect2: error: ld returned 1 exit status
+make: *** [niosBlink.elf] Error 1
+Makefile:1064: recipe for target 'niosBlink.elf' failed
+
+06:08:40 Build Finished (took 421ms)
+

@@ -1,0 +1,783 @@
+# Reading pref.tcl
+# do msim_setup.tcl
+# niosHello_tb
+# ./../
+# /home/raphacosta/altera_lite/16.0/quartus/
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work ./libraries/work/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work_lib ./libraries/work/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap error_adapter_0 ./libraries/error_adapter_0/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap avalon_st_adapter ./libraries/avalon_st_adapter/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap rsp_mux_001 ./libraries/rsp_mux_001/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap rsp_mux ./libraries/rsp_mux/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap rsp_demux ./libraries/rsp_demux/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap cmd_mux_003 ./libraries/cmd_mux_003/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap cmd_mux ./libraries/cmd_mux/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap cmd_demux_001 ./libraries/cmd_demux_001/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap cmd_demux ./libraries/cmd_demux/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap router_005 ./libraries/router_005/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap router_002 ./libraries/router_002/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap router_001 ./libraries/router_001/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap router ./libraries/router/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo ./libraries/jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap jtag_uart_0_avalon_jtag_slave_agent ./libraries/jtag_uart_0_avalon_jtag_slave_agent/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap nios2_gen2_0_data_master_agent ./libraries/nios2_gen2_0_data_master_agent/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap jtag_uart_0_avalon_jtag_slave_translator ./libraries/jtag_uart_0_avalon_jtag_slave_translator/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap nios2_gen2_0_data_master_translator ./libraries/nios2_gen2_0_data_master_translator/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap cpu ./libraries/cpu/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap rst_controller ./libraries/rst_controller/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap irq_mapper ./libraries/irq_mapper/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap mm_interconnect_0 ./libraries/mm_interconnect_0/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap rom ./libraries/rom/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap ram ./libraries/ram/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap pio_ButSw ./libraries/pio_ButSw/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap peripheral_LED_0 ./libraries/peripheral_LED_0/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap nios2_gen2_0 ./libraries/nios2_gen2_0/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap jtag_uart_0 ./libraries/jtag_uart_0/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap HC_SR04_0 ./libraries/HC_SR04_0/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap niosHello_inst_reset_bfm ./libraries/niosHello_inst_reset_bfm/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap niosHello_inst_clk_bfm ./libraries/niosHello_inst_clk_bfm/ 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap niosHello_inst ./libraries/niosHello_inst/ 
+# Modifying modelsim.ini
+# [exec] file_copy
+# List Of Command Line Aliases
+# 
+# file_copy                     -- Copy ROM/RAM files to simulation directory
+# 
+# dev_com                       -- Compile device library files
+# 
+# com                           -- Compile the design files in correct order
+# 
+# elab                          -- Elaborate top level design
+# 
+# elab_debug                    -- Elaborate the top level design with novopt option
+# 
+# ld                            -- Compile all the design files and elaborate the top level design
+# 
+# ld_debug                      -- Compile all the design files and elaborate the top level design with -novopt
+# 
+# 
+# 
+# List Of Variables
+# 
+# TOP_LEVEL_NAME                -- Top level module name.
+#                                  For most designs, this should be overridden
+#                                  to enable the elab/elab_debug aliases.
+# 
+# SYSTEM_INSTANCE_NAME          -- Instantiated system module name inside top level module.
+# 
+# QSYS_SIMDIR                   -- Qsys base simulation directory.
+# 
+# QUARTUS_INSTALL_DIR           -- Quartus installation directory.
+# 
+# USER_DEFINED_COMPILE_OPTIONS  -- User-defined compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_ELAB_OPTIONS     -- User-defined elaboration options, added to elab/elab_debug aliases.
+#  ld
+# [exec] dev_com
+# [exec] com
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:53 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv -work error_adapter_0 
+# -- Compiling module niosHello_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	niosHello_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 05:39:53 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:53 on Oct 02,2018
+# vcom -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_mm_interconnect_0_avalon_st_adapter.vhd -work avalon_st_adapter 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity niosHello_mm_interconnect_0_avalon_st_adapter
+# -- Compiling architecture rtl of niosHello_mm_interconnect_0_avalon_st_adapter
+# End time: 05:39:53 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:53 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_mm_interconnect_0_rsp_mux_001.sv -work rsp_mux_001 
+# -- Compiling module niosHello_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	niosHello_mm_interconnect_0_rsp_mux_001
+# End time: 05:39:53 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:53 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_merlin_arbitrator.sv -work rsp_mux_001 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 05:39:53 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:53 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_mm_interconnect_0_rsp_mux.sv -work rsp_mux 
+# -- Compiling module niosHello_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	niosHello_mm_interconnect_0_rsp_mux
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_merlin_arbitrator.sv -work rsp_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_mm_interconnect_0_rsp_demux.sv -work rsp_demux 
+# -- Compiling module niosHello_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	niosHello_mm_interconnect_0_rsp_demux
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_mm_interconnect_0_cmd_mux_003.sv -work cmd_mux_003 
+# -- Compiling module niosHello_mm_interconnect_0_cmd_mux_003
+# 
+# Top level modules:
+# 	niosHello_mm_interconnect_0_cmd_mux_003
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_merlin_arbitrator.sv -work cmd_mux_003 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_mm_interconnect_0_cmd_mux.sv -work cmd_mux 
+# -- Compiling module niosHello_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	niosHello_mm_interconnect_0_cmd_mux
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_merlin_arbitrator.sv -work cmd_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_mm_interconnect_0_cmd_demux_001.sv -work cmd_demux_001 
+# -- Compiling module niosHello_mm_interconnect_0_cmd_demux_001
+# 
+# Top level modules:
+# 	niosHello_mm_interconnect_0_cmd_demux_001
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_mm_interconnect_0_cmd_demux.sv -work cmd_demux 
+# -- Compiling module niosHello_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	niosHello_mm_interconnect_0_cmd_demux
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_mm_interconnect_0_router_005.sv -work router_005 
+# -- Compiling module niosHello_mm_interconnect_0_router_005_default_decode
+# -- Compiling module niosHello_mm_interconnect_0_router_005
+# 
+# Top level modules:
+# 	niosHello_mm_interconnect_0_router_005
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_mm_interconnect_0_router_002.sv -work router_002 
+# -- Compiling module niosHello_mm_interconnect_0_router_002_default_decode
+# -- Compiling module niosHello_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	niosHello_mm_interconnect_0_router_002
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_mm_interconnect_0_router_001.sv -work router_001 
+# -- Compiling module niosHello_mm_interconnect_0_router_001_default_decode
+# -- Compiling module niosHello_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	niosHello_mm_interconnect_0_router_001
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_mm_interconnect_0_router.sv -work router 
+# -- Compiling module niosHello_mm_interconnect_0_router_default_decode
+# -- Compiling module niosHello_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	niosHello_mm_interconnect_0_router
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_avalon_sc_fifo.v -work jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_merlin_slave_agent.sv -work jtag_uart_0_avalon_jtag_slave_agent 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv -work jtag_uart_0_avalon_jtag_slave_agent 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_merlin_master_agent.sv -work nios2_gen2_0_data_master_agent 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_merlin_slave_translator.sv -work jtag_uart_0_avalon_jtag_slave_translator 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_merlin_master_translator.sv -work nios2_gen2_0_data_master_translator 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_debug_slave_sysclk.v -work cpu 
+# -- Compiling module niosHello_nios2_gen2_0_cpu_debug_slave_sysclk
+# 
+# Top level modules:
+# 	niosHello_nios2_gen2_0_cpu_debug_slave_sysclk
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v -work cpu 
+# -- Compiling module niosHello_nios2_gen2_0_cpu_register_bank_a_module
+# -- Compiling module niosHello_nios2_gen2_0_cpu_register_bank_b_module
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_oci_debug
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_oci_break
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_oci_xbrk
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_oci_dbrk
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_oci_itrace
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_oci_td_mode
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_oci_dtrace
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_oci_fifo
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_oci_pib
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_oci_im
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_performance_monitors
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_avalon_reg
+# -- Compiling module niosHello_nios2_gen2_0_cpu_ociram_sp_ram_module
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_ocimem
+# -- Compiling module niosHello_nios2_gen2_0_cpu_nios2_oci
+# -- Compiling module niosHello_nios2_gen2_0_cpu
+# 
+# Top level modules:
+# 	niosHello_nios2_gen2_0_cpu_nios2_performance_monitors
+# 	niosHello_nios2_gen2_0_cpu
+# End time: 05:39:54 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:54 on Oct 02,2018
+# vlog -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_debug_slave_wrapper.v -work cpu 
+# -- Compiling module niosHello_nios2_gen2_0_cpu_debug_slave_wrapper
+# 
+# Top level modules:
+# 	niosHello_nios2_gen2_0_cpu_debug_slave_wrapper
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vlog -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_debug_slave_tck.v -work cpu 
+# -- Compiling module niosHello_nios2_gen2_0_cpu_debug_slave_tck
+# 
+# Top level modules:
+# 	niosHello_nios2_gen2_0_cpu_debug_slave_tck
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vlog -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_test_bench.v -work cpu 
+# -- Compiling module niosHello_nios2_gen2_0_cpu_test_bench
+# 
+# Top level modules:
+# 	niosHello_nios2_gen2_0_cpu_test_bench
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vlog -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_reset_controller.v -work rst_controller 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vlog -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_reset_synchronizer.v -work rst_controller 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vlog -reportprogress 300 -sv /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_irq_mapper.sv -work irq_mapper 
+# -- Compiling module niosHello_irq_mapper
+# 
+# Top level modules:
+# 	niosHello_irq_mapper
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vlog -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_mm_interconnect_0.v -work mm_interconnect_0 
+# -- Compiling module niosHello_mm_interconnect_0
+# 
+# Top level modules:
+# 	niosHello_mm_interconnect_0
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vlog -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v -work rom 
+# -- Compiling module niosHello_rom
+# 
+# Top level modules:
+# 	niosHello_rom
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vlog -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v -work ram 
+# -- Compiling module niosHello_ram
+# 
+# Top level modules:
+# 	niosHello_ram
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vlog -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_pio_ButSw.v -work pio_ButSw 
+# -- Compiling module niosHello_pio_ButSw
+# 
+# Top level modules:
+# 	niosHello_pio_ButSw
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vcom -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/peripheral-LED.vhd -work peripheral_LED_0 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity peripheral_LED
+# -- Compiling architecture rtl of peripheral_LED
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vlog -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0.v -work nios2_gen2_0 
+# -- Compiling module niosHello_nios2_gen2_0
+# 
+# Top level modules:
+# 	niosHello_nios2_gen2_0
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vlog -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_jtag_uart_0.v -work jtag_uart_0 
+# -- Compiling module niosHello_jtag_uart_0_sim_scfifo_w
+# -- Compiling module niosHello_jtag_uart_0_scfifo_w
+# -- Compiling module niosHello_jtag_uart_0_sim_scfifo_r
+# -- Compiling module niosHello_jtag_uart_0_scfifo_r
+# -- Compiling module niosHello_jtag_uart_0
+# 
+# Top level modules:
+# 	niosHello_jtag_uart_0
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vcom -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/HC_SR04.vhd -work HC_SR04_0 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity HC_SR04
+# -- Compiling architecture rtl of HC_SR04
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vcom -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_avalon_reset_source.vhd -work niosHello_inst_reset_bfm 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity altera_avalon_reset_source
+# -- Compiling architecture behavioral of altera_avalon_reset_source
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vcom -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_avalon_clock_source.vhd -work niosHello_inst_clk_bfm 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity altera_avalon_clock_source
+# -- Compiling architecture behavioral of altera_avalon_clock_source
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vcom -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello.vhd -work niosHello_inst 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity niosHello
+# -- Compiling architecture rtl of niosHello
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 05:39:55 on Oct 02,2018
+# vcom -reportprogress 300 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/niosHello_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity niosHello_tb
+# -- Compiling architecture rtl of niosHello_tb
+# End time: 05:39:55 on Oct 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# [exec] elab
+# vsim -t ps -L work -L work_lib -L error_adapter_0 -L avalon_st_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux -L cmd_mux_003 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L router_005 -L router_002 -L router_001 -L router -L jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo -L jtag_uart_0_avalon_jtag_slave_agent -L nios2_gen2_0_data_master_agent -L jtag_uart_0_avalon_jtag_slave_translator -L nios2_gen2_0_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L rom -L ram -L pio_ButSw -L peripheral_LED_0 -L nios2_gen2_0 -L jtag_uart_0 -L HC_SR04_0 -L niosHello_inst_reset_bfm -L niosHello_inst_clk_bfm -L niosHello_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev niosHello_tb -G/niosHello_tb/niosHello_inst/rom/INIT_FILE="niosHello_rom.hex" -G/niosHello_tb/niosHello_inst/ram/INIT_FILE="niosHello_ram.hex" 
+# Start time: 05:39:55 on Oct 02,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.nioshello_tb(rtl)
+# Loading niosHello_inst.nioshello(rtl)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading HC_SR04_0.hc_sr04(rtl)
+# Loading jtag_uart_0.niosHello_jtag_uart_0
+# Loading jtag_uart_0.niosHello_jtag_uart_0_scfifo_w
+# Loading jtag_uart_0.niosHello_jtag_uart_0_sim_scfifo_w
+# Loading jtag_uart_0.niosHello_jtag_uart_0_scfifo_r
+# Loading jtag_uart_0.niosHello_jtag_uart_0_sim_scfifo_r
+# Loading nios2_gen2_0.niosHello_nios2_gen2_0
+# Loading cpu.niosHello_nios2_gen2_0_cpu
+# Loading cpu.niosHello_nios2_gen2_0_cpu_test_bench
+# Loading cpu.niosHello_nios2_gen2_0_cpu_register_bank_a_module
+# Loading altera_mf_ver.altsyncram
+# Loading cpu.niosHello_nios2_gen2_0_cpu_register_bank_b_module
+# Loading cpu.niosHello_nios2_gen2_0_cpu_nios2_oci
+# Loading cpu.niosHello_nios2_gen2_0_cpu_nios2_oci_debug
+# Loading altera_mf_ver.altera_std_synchronizer
+# Loading cpu.niosHello_nios2_gen2_0_cpu_nios2_oci_break
+# Loading cpu.niosHello_nios2_gen2_0_cpu_nios2_oci_xbrk
+# Loading cpu.niosHello_nios2_gen2_0_cpu_nios2_oci_dbrk
+# Loading cpu.niosHello_nios2_gen2_0_cpu_nios2_oci_itrace
+# Loading cpu.niosHello_nios2_gen2_0_cpu_nios2_oci_dtrace
+# Loading cpu.niosHello_nios2_gen2_0_cpu_nios2_oci_td_mode
+# Loading cpu.niosHello_nios2_gen2_0_cpu_nios2_oci_fifo
+# Loading cpu.niosHello_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+# Loading cpu.niosHello_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+# Loading cpu.niosHello_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+# Loading cpu.niosHello_nios2_gen2_0_cpu_nios2_oci_pib
+# Loading cpu.niosHello_nios2_gen2_0_cpu_nios2_oci_im
+# Loading cpu.niosHello_nios2_gen2_0_cpu_nios2_avalon_reg
+# Loading cpu.niosHello_nios2_gen2_0_cpu_nios2_ocimem
+# Loading cpu.niosHello_nios2_gen2_0_cpu_ociram_sp_ram_module
+# Loading cpu.niosHello_nios2_gen2_0_cpu_debug_slave_wrapper
+# Loading cpu.niosHello_nios2_gen2_0_cpu_debug_slave_tck
+# Loading cpu.niosHello_nios2_gen2_0_cpu_debug_slave_sysclk
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading peripheral_LED_0.peripheral_led(rtl)
+# Loading pio_ButSw.niosHello_pio_ButSw
+# Loading ram.niosHello_ram
+# Loading rom.niosHello_rom
+# Loading mm_interconnect_0.niosHello_mm_interconnect_0
+# Loading sv_std.std
+# Loading nios2_gen2_0_data_master_translator.altera_merlin_master_translator
+# Loading jtag_uart_0_avalon_jtag_slave_translator.altera_merlin_slave_translator
+# Loading nios2_gen2_0_data_master_agent.altera_merlin_master_agent
+# Loading jtag_uart_0_avalon_jtag_slave_agent.altera_merlin_slave_agent
+# Loading jtag_uart_0_avalon_jtag_slave_agent.altera_merlin_burst_uncompressor
+# Loading jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo.altera_avalon_sc_fifo
+# Loading router.niosHello_mm_interconnect_0_router
+# Loading router.niosHello_mm_interconnect_0_router_default_decode
+# Loading router_001.niosHello_mm_interconnect_0_router_001
+# Loading router_001.niosHello_mm_interconnect_0_router_001_default_decode
+# Loading router_002.niosHello_mm_interconnect_0_router_002
+# Loading router_002.niosHello_mm_interconnect_0_router_002_default_decode
+# Loading router_005.niosHello_mm_interconnect_0_router_005
+# Loading router_005.niosHello_mm_interconnect_0_router_005_default_decode
+# Loading cmd_demux.niosHello_mm_interconnect_0_cmd_demux
+# Loading cmd_demux_001.niosHello_mm_interconnect_0_cmd_demux_001
+# Loading cmd_mux.niosHello_mm_interconnect_0_cmd_mux
+# Loading cmd_mux_003.niosHello_mm_interconnect_0_cmd_mux_003
+# Loading cmd_mux_003.altera_merlin_arbitrator
+# Loading cmd_mux_003.altera_merlin_arb_adder
+# Loading rsp_demux.niosHello_mm_interconnect_0_rsp_demux
+# Loading rsp_mux.niosHello_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading rsp_mux_001.niosHello_mm_interconnect_0_rsp_mux_001
+# Loading rsp_mux_001.altera_merlin_arbitrator
+# Loading rsp_mux_001.altera_merlin_arb_adder
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# Loading avalon_st_adapter.nioshello_mm_interconnect_0_avalon_st_adapter(rtl)
+# Loading error_adapter_0.niosHello_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading irq_mapper.niosHello_irq_mapper
+# Loading rst_controller.altera_reset_controller
+# Loading rst_controller.altera_reset_synchronizer
+# Loading niosHello_inst_clk_bfm.altera_avalon_clock_source(behavioral)
+# Loading niosHello_inst_reset_bfm.altera_avalon_reset_source(behavioral)
+# ** Warning: (vsim-3017) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0.v(38): [TFMPC] - Too few port connections. Expected 28, found 26.
+#    Time: 0 ps  Iteration: 0  Instance: /nioshello_tb/nioshello_inst/nios2_gen2_0/cpu File: /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0.v(38): [TFMPC] - Missing connection for port 'A_valid_from_M'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0.v(38): [TFMPC] - Missing connection for port 'instr_retired'.
+# ** Warning: (vsim-3017) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /nioshello_tb/nioshello_inst/nios2_gen2_0/cpu/niosHello_nios2_gen2_0_cpu_register_bank_a/the_altsyncram File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(49): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /nioshello_tb/nioshello_inst/nios2_gen2_0/cpu/niosHello_nios2_gen2_0_cpu_register_bank_b/the_altsyncram File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(114): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2595): [PCDPC] - Port size (16) does not match connection size (38) for port 'jdo'. The port definition is at: /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(981).
+#    Time: 0 ps  Iteration: 0  Instance: /nioshello_tb/nioshello_inst/nios2_gen2_0/cpu/the_niosHello_nios2_gen2_0_cpu_nios2_oci/the_niosHello_nios2_gen2_0_cpu_nios2_oci_itrace File: /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v
+# ** Warning: (vsim-3017) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /nioshello_tb/nioshello_inst/nios2_gen2_0/cpu/the_niosHello_nios2_gen2_0_cpu_nios2_oci/the_niosHello_nios2_gen2_0_cpu_nios2_ocimem/niosHello_nios2_gen2_0_cpu_ociram_sp_ram/the_altsyncram File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v(2131): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /nioshello_tb/nioshello_inst/ram/the_altsyncram File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_ram.v(57): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /nioshello_tb/nioshello_inst/rom/the_altsyncram File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_rom.v(57): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: Design size of 10134 statements exceeds ModelSim Altera Starter recommended capacity.
+# Expect performance to be adversely affected.
+# ** Warning: (vsim-8683) Uninitialized out port /nioshello_tb/nioshello_inst/hc_sr04_0/irq has no driver.
+# This port will contribute value (U) to the signal network.
+#  
+# End time: 05:40:01 on Oct 02,2018, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 94

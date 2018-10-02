@@ -1,0 +1,54 @@
+06:14:13 **** Incremental Build of configuration Nios II for project niosBlink2 ****
+make all 
+Info: Building ../niosBlink2_bsp/
+make --no-print-directory -C ../niosBlink2_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../niosBlink2_bsp//HAL/inc -I../niosBlink2_bsp/ -I../niosBlink2_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'main':
+hello_world.c:25:3: warning: implicit declaration of function 'init_pio' [-Wimplicit-function-declaration]
+   init_pio();
+   ^
+hello_world.c:29:5: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+     usleep(50000);
+     ^
+hello_world.c: In function 'handle_button_interrupts':
+hello_world.c:52:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'alt_u32 {aka volatile long unsigned int}' [-Wformat=]
+  printf("butsw: %d \n", butsw);
+         ^
+hello_world.c:52:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'alt_u32 {aka volatile long unsigned int}' [-Wformat=]
+hello_world.c: At top level:
+hello_world.c:57:6: warning: conflicting types for 'init_pio'
+ void init_pio(){
+      ^
+hello_world.c:25:3: note: previous implicit declaration of 'init_pio' was here
+   init_pio();
+   ^
+hello_world.c: In function 'init_pio':
+hello_world.c:66:2: warning: implicit declaration of function 'alt_irq_register' [-Wimplicit-function-declaration]
+  alt_irq_register( PIO_1_IRQ, edge_capture_ptr,
+  ^
+hello_world.c: In function 'delay':
+hello_world.c:19:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Linking niosBlink2.elf
+nios2-elf-g++  -T'../niosBlink2_bsp//linker.x' -msys-crt0='../niosBlink2_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../niosBlink2_bsp/   -Wl,-Map=niosBlink2.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o niosBlink2.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert niosBlink2.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name niosHello --quartus_project_dir "/home/raphacosta/Desktop/entregasEmbAvancados-Rapha/entrega2" --jdi ../..//output_files/entrega2-NIOSBlinkLed.jdi --sopcinfo /home/raphacosta/Desktop/entregasEmbAvancados-Rapha/entrega2/software/niosBlink2_bsp/../../niosHello.sopcinfo
+Info: (niosBlink2.elf) 71 KBytes program size (code + initialized data).
+Info:                  248 KBytes free for stack + heap.
+Info: Creating niosBlink2.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source niosBlink2.elf >niosBlink2.objdump
+[niosBlink2 build complete]
+06:14:42 **** Build of configuration Nios II for project niosBlink2 ****
+make all 
+Info: Building ../niosBlink2_bsp/
+make --no-print-directory -C ../niosBlink2_bsp/
+[BSP build complete]
+[niosBlink2 build complete]
+06:14:43 **** Incremental Build of configuration Nios II for project niosBlink2 ****
+make all 
+Info: Building ../niosBlink2_bsp/
+make --no-print-directory -C ../niosBlink2_bsp/
+[BSP build complete]
+[niosBlink2 build complete]

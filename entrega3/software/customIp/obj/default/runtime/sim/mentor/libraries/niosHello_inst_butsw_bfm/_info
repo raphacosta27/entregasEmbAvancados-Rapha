@@ -1,0 +1,91 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/raphacosta/Desktop/entrega3/software/customIp/obj/default/runtime/sim/mentor
+Ealtera_conduit_bfm
+Z1 w1537270857
+Z2 DPx4 work 27 altera_conduit_bfm_vhdl_pkg 0 22 i:__c^P^a8jaGPf;4baV[1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_conduit_bfm.vhd
+Z6 F/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_conduit_bfm.vhd
+l0
+L42
+V[79V^FFZPdH6=@T6QC7;F0
+!s100 PSJP=1gc]U<YJQ[G1OfSz1
+Z7 OV;C;10.4d;61
+32
+Z8 !s110 1537274753
+!i10b 1
+Z9 !s108 1537274753.000000
+Z10 !s90 -reportprogress|300|/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_conduit_bfm.vhd|-work|niosHello_inst_butsw_bfm|
+Z11 !s107 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_conduit_bfm.vhd|
+!i113 1
+Z12 o-work niosHello_inst_butsw_bfm
+Z13 tExplicit 1
+Aaltera_conduit_bfm_arch
+R2
+R3
+R4
+Z14 DEx4 work 18 altera_conduit_bfm 0 22 [79V^FFZPdH6=@T6QC7;F0
+l52
+L48
+Z15 VonjEETA0aH8Z@k=LR4Z:]2
+Z16 !s100 L``Go9YSdmnDTloLjjeH91
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Paltera_conduit_bfm_vhdl_pkg
+R3
+R4
+R1
+R0
+Z17 8/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_conduit_bfm_vhdl_pkg.vhd
+Z18 F/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_conduit_bfm_vhdl_pkg.vhd
+l0
+L42
+Vi:__c^P^a8jaGPf;4baV[1
+!s100 Sk]N_:efDS6Rocf8M3PlJ2
+R7
+32
+b1
+R8
+!i10b 1
+R9
+Z19 !s90 -reportprogress|300|/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_conduit_bfm_vhdl_pkg.vhd|-work|niosHello_inst_butsw_bfm|
+Z20 !s107 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/altera_conduit_bfm_vhdl_pkg.vhd|
+!i113 1
+R12
+R13
+Bbody
+R2
+R3
+R4
+l0
+L62
+Vz>4=_QhV81on0@E]EDd`n1
+!s100 >ZEPA:Ie2Waf5b8iT?Y]T2
+R7
+32
+R8
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13

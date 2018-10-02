@@ -1,0 +1,535 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/raphacosta/Desktop/entrega3/software/customIp/obj/default/runtime/sim/mentor
+vniosHello_nios2_gen2_0_cpu
+Z1 !s110 1537274752
+!i10b 1
+!s100 W4ZYQ@B1@9IOo>ajI@m4_1
+IhnAYHkkoo6Qdm0WM0MYaR2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1537270865
+Z4 8/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v
+Z5 F/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v
+L0 2820
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1537274752.000000
+Z8 !s107 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v|
+Z9 !s90 -reportprogress|300|/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu.v|-work|cpu|
+!i113 1
+Z10 o-work cpu
+nnios@hello_nios2_gen2_0_cpu
+vniosHello_nios2_gen2_0_cpu_debug_slave_sysclk
+R1
+!i10b 1
+!s100 YWK7mhVDnJUdHXP]RhTNK0
+IEL^;EombMF?d4CT;ZNkYF2
+R2
+R0
+R3
+8/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_debug_slave_sysclk.v
+F/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_debug_slave_sysclk.v
+Z11 L0 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_debug_slave_sysclk.v|-work|cpu|
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_debug_slave_sysclk
+vniosHello_nios2_gen2_0_cpu_debug_slave_tck
+R1
+!i10b 1
+!s100 hZBQgCV9=ie_nP18hW`>32
+IF^=_<cGfW]1@IGj^]cnj@2
+R2
+R0
+R3
+8/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_debug_slave_tck.v
+F/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_debug_slave_tck.v
+R11
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_debug_slave_tck.v|-work|cpu|
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_debug_slave_tck
+vniosHello_nios2_gen2_0_cpu_debug_slave_wrapper
+R1
+!i10b 1
+!s100 `gCkdN@4^Oz5GjeGa:HAJ0
+I2MHRB]:229j:aK<WK5Qe22
+R2
+R0
+R3
+8/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_debug_slave_wrapper.v
+F/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_debug_slave_wrapper.v
+R11
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_debug_slave_wrapper.v|-work|cpu|
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_debug_slave_wrapper
+vniosHello_nios2_gen2_0_cpu_nios2_avalon_reg
+R1
+!i10b 1
+!s100 JCJ2eYS0=@D]XRUAQ60WN3
+IbF6k_0`Mkm?9^cSKiTRdT1
+R2
+R0
+R3
+R4
+R5
+L0 2009
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_avalon_reg
+vniosHello_nios2_gen2_0_cpu_nios2_oci
+R1
+!i10b 1
+!s100 l7eH4[HmVmC>V>a]9[QQh2
+Il9E@@K^XJ`XeC20<PM;YB1
+R2
+R0
+R3
+R4
+R5
+L0 2345
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_oci
+vniosHello_nios2_gen2_0_cpu_nios2_oci_break
+R1
+!i10b 1
+!s100 =944USG=_W[[L?;>7QDBM0
+IdbAKoeHZj@FChH5P3Lb841
+R2
+R0
+R3
+R4
+R5
+L0 292
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_oci_break
+vniosHello_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+R1
+!i10b 1
+!s100 lABj4fd;SSZM^H@=M5GLL2
+IF_Ze7e5d]l_0B_UEmaNV_2
+R2
+R0
+R3
+R4
+R5
+L0 1258
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+vniosHello_nios2_gen2_0_cpu_nios2_oci_dbrk
+R1
+!i10b 1
+!s100 [h0Y[3lQV6LU>Q>el4N<W1
+I<jg5^_4ZXEOAceU7DFTA43
+R2
+R0
+R3
+R4
+R5
+L0 790
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_oci_dbrk
+vniosHello_nios2_gen2_0_cpu_nios2_oci_debug
+R1
+!i10b 1
+!s100 ZjfhN6FiGm^:j_hg`Uj`I0
+Id>eP?K6c8?9O5YQB9cj7;3
+R2
+R0
+R3
+R4
+R5
+L0 151
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_oci_debug
+vniosHello_nios2_gen2_0_cpu_nios2_oci_dtrace
+R1
+!i10b 1
+!s100 ;[HEIG_a^f@S`Cez=A0R`2
+IiVUkDF`j2XLS<XJLlF0<72
+R2
+R0
+R3
+R4
+R5
+L0 1177
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_oci_dtrace
+vniosHello_nios2_gen2_0_cpu_nios2_oci_fifo
+R1
+!i10b 1
+!s100 mG;9H_9_8XQ25dDZ^nI_B3
+IHmM<TA5Qacbkckd?[4zoN3
+R2
+R0
+R3
+R4
+R5
+L0 1417
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_oci_fifo
+vniosHello_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+R1
+!i10b 1
+!s100 AFP?SM`5K_KAkXXgR>do93
+IEf:oYO[Qd]YWO1nd>?l7b2
+R2
+R0
+R3
+R4
+R5
+L0 1371
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+vniosHello_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+R1
+!i10b 1
+!s100 _?mmKD4L:MNU4c@CDz=fl2
+Io;9M<RQj7C:fNh<[ihGFW0
+R2
+R0
+R3
+R4
+R5
+L0 1329
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+vniosHello_nios2_gen2_0_cpu_nios2_oci_im
+R1
+!i10b 1
+!s100 bEEUNdhgXnRjKGJ>00Vcd2
+IN`fLO`eD@^KUCF7CF=Okd0
+R2
+R0
+R3
+R4
+R5
+L0 1924
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_oci_im
+vniosHello_nios2_gen2_0_cpu_nios2_oci_itrace
+R1
+!i10b 1
+!s100 mY[NLL0m852>N>X>8o>`D1
+IGTcU?zFLcWAjjz_hGQ39k2
+R2
+R0
+R3
+R4
+R5
+L0 976
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_oci_itrace
+vniosHello_nios2_gen2_0_cpu_nios2_oci_pib
+R1
+!i10b 1
+!s100 RfiPVPDfQSjkn00XPXkDA3
+IcfBnLG5nQ4Ln9RIWZ9aWF2
+R2
+R0
+R3
+R4
+R5
+L0 1902
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_oci_pib
+vniosHello_nios2_gen2_0_cpu_nios2_oci_td_mode
+R1
+!i10b 1
+!s100 a5DCbH^@`b3KQUGFQ[2YU2
+IL<JObNdJT`8_WWAbdc;CC3
+R2
+R0
+R3
+R4
+R5
+L0 1110
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_oci_td_mode
+vniosHello_nios2_gen2_0_cpu_nios2_oci_xbrk
+R1
+!i10b 1
+!s100 IR5RAQUmPRV:@Z:?bIfNL2
+Ia<@b:JYN`9YDXF3fTBjIX3
+R2
+R0
+R3
+R4
+R5
+L0 584
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_oci_xbrk
+vniosHello_nios2_gen2_0_cpu_nios2_ocimem
+R1
+!i10b 1
+!s100 jn:Ff>H:lge?1A2:Afz3O2
+Iba7oN[l^X82`:T8Z4M99U2
+R2
+R0
+R3
+R4
+R5
+L0 2165
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_ocimem
+vniosHello_nios2_gen2_0_cpu_nios2_performance_monitors
+R1
+!i10b 1
+!s100 @7VK3noJPknONO3YZ5QPL2
+I57]I2lXjj0oWdNn@jUJTl1
+R2
+R0
+R3
+R4
+R5
+L0 1993
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_nios2_performance_monitors
+vniosHello_nios2_gen2_0_cpu_ociram_sp_ram_module
+R1
+!i10b 1
+!s100 e]QGZNRc7Zh6ARZlfPZ6h1
+I>EG7gH:WzmjRGEkj5]ozX3
+R2
+R0
+R3
+R4
+R5
+L0 2101
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_ociram_sp_ram_module
+vniosHello_nios2_gen2_0_cpu_register_bank_a_module
+R1
+!i10b 1
+!s100 ?A40`=`:gn_473R?@71NZ2
+I]EmL7j@jK6^bkUKBWVNQU3
+R2
+R0
+R3
+R4
+R5
+R11
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_register_bank_a_module
+vniosHello_nios2_gen2_0_cpu_register_bank_b_module
+R1
+!i10b 1
+!s100 GB9T;f^Ia>U]Xz0n]TLU:0
+Ia3W:fO>Y:dUmV[_KzN@433
+R2
+R0
+R3
+R4
+R5
+L0 86
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_register_bank_b_module
+vniosHello_nios2_gen2_0_cpu_test_bench
+!s110 1537274753
+!i10b 1
+!s100 D9=W^]U[hBiEQmmDhO_mz1
+I45:`73YAS7`38`[_dCTZ13
+R2
+R0
+R3
+8/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_test_bench.v
+F/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_test_bench.v
+R11
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_test_bench.v|
+!s90 -reportprogress|300|/home/raphacosta/Desktop/entrega3/niosHello/testbench/niosHello_tb/simulation/submodules/niosHello_nios2_gen2_0_cpu_test_bench.v|-work|cpu|
+!i113 1
+R10
+nnios@hello_nios2_gen2_0_cpu_test_bench

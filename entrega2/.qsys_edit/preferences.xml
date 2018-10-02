@@ -8,9 +8,8 @@
    <name preferredWidth="217" />
   </columns>
  </systemtable>
- <library
-   expandedCategories="Library/Basic Functions/On Chip Memory,Project,Library/DSP,Library/University Program/Generic IO,Library/University Program/Audio &amp; Video/Video,Library/Basic Functions,Library/University Program,Library/University Program/Audio &amp; Video,Library/DSP/Video and Image Processing,Library" />
+ <library expandedCategories="Library,Project" />
  <window width="1625" height="966" x="75" y="114" />
  <hdlexample language="VHDL" />
- <generation synthesis="VHDL" />
+ <generation synthesis="VHDL" simulation="VHDL" block_symbol_file="0" />
 </preferences>

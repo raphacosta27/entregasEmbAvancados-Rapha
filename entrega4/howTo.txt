@@ -1,0 +1,10 @@
+Para testar: 
+	Executar o arquivo python preenchendo com os argumentos pedidos pelo programa
+	Prograna gera um host_file.gdb
+No Target: 
+	gdb -x server_file.gdb
+	Este comando inicializará um gdbserver na porta 8080 por padrão, caso queira modificar a porta, basta editar no arquivo.
+No Host: 
+	gdb -x host_file.gdb 
+	Lembre de rodar com um gdb que tenha suporte para arquitetura arm.
+	No linux, sudo apt install gdb-arm-none-eabi instalará um gdb com suporte para tal.
